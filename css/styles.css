@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+}
+
+header {
+    background-color: rgb(45, 43, 65);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+h1 {
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.h2-l {
+    text-align: left;
+}
+
+.signup-intro {
+    text-align: center;
+}
+
+input {
+    border: 0px none;
+    height: 30px;
+}
+
+input:focus {
+    outline: 3px solid rgb(45, 43, 65);
+}
+
+legend {
+    display: none;
+}
+
+p, label {
+    font-size: 15px;
+    color: gray;
+}
+
+::placeholder {
+    text-align: right;
+}
+
+
+.news-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.news-row input {
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+/*Flex*/
+
+.contact-info , .newsletter-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.container input {
+    width: 100%;
+}
+
+.container label {
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+/*Media Query*/
+
+@media screen and (min-width: 768px) {
+    body {
+      display: flex;
+      flex-direction: column;     
+  }
+    .main-body {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* Horizontal Rules */
+
+#hr-one {
+    height: 14px;
+    border-top: 8px solid rgb(45, 43, 65);
+    border-bottom: 4px solid rgb(45, 43, 65);
+    width: 100%;
+}
+
+#hr-two {
+ border: 2px rgb(45, 43, 65) solid;
+}

@@ -1,0 +1,37 @@
+/*Attribute Selectors*/
+
+button[type="submit"] {
+    cursor: pointer;
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+select[id="state"] {
+    border: 0px none;
+    height: 30px;
+}
+
+textarea[id="topics"] {
+    border: none;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/*Media Query*/
+
+@media screen and (min-width: 768px) {
+    button[type="submit"] {
+        width: 100%;
+    
+    }
+}
