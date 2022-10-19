@@ -37,8 +37,15 @@ input {
     background-color: rgb(189, 189, 189);
 }
 
-input:focus {
+input:focus,
+select:focus,
+textarea:focus {
     outline: 3px solid rgb(45, 43, 65);
+}
+
+select,
+textarea {
+    background-color: rgb(189, 189, 189);
 }
 
 legend {
