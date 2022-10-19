@@ -32,8 +32,9 @@ h1 {
 }
 
 input {
-    border: 0px none;
+    border: 2px none;
     height: 30px;
+    background-color: rgb(189, 189, 189);
 }
 
 input:focus {
@@ -83,10 +84,12 @@ footer {
 
 .container input {
     width: 100%;
+    padding: 5px;
+    border-radius: 3px;
 }
 
 .container label {
-    width: 35%;
+    width: 20%;
     margin-bottom: 10px;
 }
 
@@ -104,6 +107,12 @@ footer {
     .container {
         flex-direction: row;
         justify-content: space-between;
+    }
+    .container input {
+        width: 80%;
+    }
+    .zip-container {
+        justify-content: flex-start;
     }
 }
 

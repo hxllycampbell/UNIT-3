@@ -17,8 +17,10 @@ button[type="submit"] {
 }
 
 select[id="state"] {
-    border: 0px none;
-    height: 30px;
+    border: 1px solid darkgrey;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
 }
 
 textarea[id="topics"] {
@@ -27,11 +29,22 @@ textarea[id="topics"] {
     margin-bottom: 10px;
 }
 
+input[id="zip"] {
+    width: 50%;
+}
+
 /*Media Query*/
 
 @media screen and (min-width: 768px) {
     button[type="submit"] {
         width: 100%;
-    
+    }
+
+    select[id="state"] {
+        width: 80%;
+    }
+
+    input[id="zip"] {
+        width: 25%;
     }
 }
